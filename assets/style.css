@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+nav{
+    background-color: #123456;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.hero{
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 10px;
+}
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero button{
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.colums{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-contact{
+    background-color: rgb(43, 31, 15);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.hero-contact h1{
+    font-size: 35px;
+}
+
+.hero-contact p{
+    font-size: 16px;
+}
+
+.main-section{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.info,
+.form{
+    background-color: rgb(79, 129, 220);
+    padding: 25px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.contact-info p {
+    color: white;
+    margin-top: 0px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+.info img{
+    width: 100%;
+    height: 330px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 100%;
+}
+
+.form button{
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(157, 157, 205);
+    color: black;
+    font-size: large;
+}
+
+
